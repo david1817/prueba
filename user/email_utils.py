@@ -21,7 +21,7 @@ def send_email(email_destination, token):
     # Adjuntar el cuerpo del correo
     html_body = MIMEText(body, "html")
     message.attach(html_body)
-    # PRUEBA2
+    # PRUEBA3
     # Iniciar conexión con el servidor SMTP y enviar el correo
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
